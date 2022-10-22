@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'event-binding';
+  numeros: number = 0;
+  sube(): void {
+    this.numeros = this.numeros < 50 ? this.numeros + 1 : this.numeros;
+  }
+  baja(): void {
+    this.numeros = this.numeros > 0 ? this.numeros - 1 : this.numeros;
+  }
+  conteoReiniciado(): void {
+    this.numeros = 0;
+  }
 }

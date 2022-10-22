@@ -1,0 +1,46 @@
+.numeros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    width: 860px;
+    min-height: 30px;
+    padding: 15px;
+    background-color: blue;
+}
+
+button:disabled { 
+    cursor: not-allowed;
+  }
+button {
+    font-size: 4rem;
+      border: 9px solid rgb(0, 0, 0);
+      padding: 30px 35px;
+}
+.numeros-masOmenos {
+    width: 100%;
+      border: 9px solid rgb(0, 0, 0);
+      background-color: white;
+      text-align: center;
+      font-size: 60px;
+      margin: 0;
+      height: 73px;
+}
+
+.numero-btns {
+    gap: 4px;
+      display: flex;
+      width: 100%;
+}
+
+.numero-btns button {
+    background-color: green;
+      color: rgb(14, 11, 11);
+      flex: 1;
+}
+
+.reiniciar-conteo {
+    font-size: 30px;
+    border: 9px solid rgb(0, 0, 0);
+    color: rgb(31, 27, 27);
+  }
